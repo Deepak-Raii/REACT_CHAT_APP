@@ -1,0 +1,100 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgb(10, 7, 10);
+}
+
+.main-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.chat-box{
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 35vw;
+  width: 50%;
+  background-color: rgb(255, 253, 253);
+  color:black;
+  border: 2px solid rgb(255, 208, 0);
+  border-radius: 5px;
+}
+
+.input-box{
+  height: 5vh;
+  width: 100%;
+  background-color: white;
+  font-size: 1.5vw;
+  padding: 0px 8px;
+  border: 1px solid red;
+  border-radius: 30px;
+  margin-left: 3px;
+}
+
+.send-btn{
+  height: 5vh;
+  width: 9vw;
+  background-color: rgb(28, 102, 28);
+  font-size: 1.4vw;
+  color: whitesmoke;
+  cursor: pointer;
+  margin-bottom: 2px;
+  border-radius: 30px;
+  margin: 0px 3px;
+
+}
+
+.username{
+  background-color: rgba(255, 255, 255, 0);
+  margin-right: 7px;
+}
+
+.likepng{
+  height: 30px;
+  background: rgba(255, 255, 255, 0);
+  margin-bottom: -10px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.like-btn{
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  border: 0px;
+
+}
+
+.msg-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-Bottom: 3px;
+  border-radius: 4vw;
+  padding: 4px 15px;
+  /* width: 100%; */
+  padding-bottom: 10px;
+  background-Color:rgb(245, 112, 112)
+}
+
+.scroller{
+  overflow: auto;
+  background-color: white;
+  width: 100%;
+ 
+}
+
+.input-button-div{
+  display: flex;
+  margin-bottom: 3px;
+  width: 100%;
+  background-color: white;
+}
+
+
